@@ -1,0 +1,136 @@
+body{
+    background-color: #19132c;
+    font-family: "Arsenal SC", sans-serif;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: #19132c;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+    
+}
+.brand span{
+    color:rgb(79, 197, 248);
+}
+.brand{
+    margin-top: -7px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.menu li{
+    list-style: none;
+
+}
+.menu .active{
+    color:rgb(79, 197, 248);
+}
+.menu a:hover{
+    background-color:cornflowerblue;
+    transition: ease-in .4s;
+    color:#19132c
+    
+}
+.main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    align-items: center;
+    
+}
+h1{
+    font-size: 3em;
+    margin-top: -150px;
+    margin-left:100px ;
+}
+
+.main img{
+   margin-left: 40px;
+   margin-top: -150px;
+    border-radius: 40px;
+}
+.about-info{
+    background-color:#bcceec;
+    color:black;
+    border-radius: 2000px;
+
+}
+.about-info  {
+    align-content: center;
+    padding: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.about-info h2{
+    margin-left: 400px;
+    margin-top: -20px;
+}
+
+.cursos h2{
+    margin-left: 350px ;
+    margin-top: -5px;
+}
+.cursos{
+    padding: 20px;
+    background-color: #bcceec;
+    color: #19132c;
+    border-radius: 2000px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.cursos li{
+    margin-left: 250px;
+}
+.aptitudes h2{
+    margin-left:630px ;
+    
+}
+.aptitudes p{
+    padding: 30px;
+    margin-left: 425px;
+}
+.aptitudes img{
+    padding-left: 100px;
+}
+.aptitudes-img{
+    display: flex;
+    
+    margin-left: 150px;
+}
+.aptitudes-img li{
+    list-style: none;;
+
+}
+.contacto{
+    background-color:#19132c;
+    padding: 30px;
+}
+.contacto h2{
+    margin-left: 600px;
+}
+.contacto-img{
+    display:flex;
+    margin-left: 525px;
+}
+.contacto-img li{
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
